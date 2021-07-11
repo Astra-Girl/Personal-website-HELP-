@@ -1,0 +1,273 @@
+<!--font links-->
+
+<!--Dancing script(cursive)-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<!--Yomogi(handwriting)-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<style>
+
+header {
+  position: fixed;
+  width: 100%;
+  length: 10;
+  top: 0;
+  left: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+ 
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #edc1b2;
+  color: black;
+  position: fixed;
+}
+
+.topnav a.active {
+  background-color: #ef9273;
+  color: white;
+
+}
+
+.topnav .icon {
+  display: none;
+
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+}
+
+    h1{
+        font-family: Dancing Script;
+        font-size: 150px;
+        text-align: center;
+    }
+
+    h2{
+        font-family: Dancing script;
+        font-size: 50px;
+    }
+
+    body{
+        background: #fff6f2;
+        font-family: yomogi;
+        text-align: center;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    .left-aligned-text{
+      text-align: left;
+    }
+
+</style>
+
+<body>
+
+<header id="header">
+
+    <div class="topnav" id="myTopnav">
+
+  <a href="#Welcome" class="active">Welcome</a>
+  <a href="#About me">About me</a>
+  <a href="#Why I made this webpage">Why I made this webpage</a>
+  <a href="#My projects">My projects</a>
+  <a href="#Updates">Updates</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+
+  <i class="fa fa-bars"></i>
+
+    </div>
+
+</header>
+
+
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+</script>
+
+    
+  
+        <!--Page 1-->
+    <p style="font-size: 50px" id="Emily's personal webpage">Emily's personal webpage</p>
+
+    <br>
+
+    <h1>Welcome!</h1>
+
+    <p>Scroll down☟</p>
+
+    <!--Space between page 1 and 2-->
+    <br>
+    <br>
+
+     <img src="https://cutewallpaper.org/21/blue-pixel-background-tumblr/Pastel-blue-tumblr-clipart-images-gallery-for-free-download-.gif" width="700" length="700">
+
+   <br>
+   <br>
+    <!--Page 2-->
+
+    <h2 class="centered-text"id="About me" > About Me😀</h2>
+
+    <img src="https://lh6.googleusercontent.com/proxy/NcEICCEqHF6duu5KGeO1YjaVVoM9kG00bvMrwPWc1W6xSA6FdT_3QtcrubDa7YE89LQ_EzJnJU64S-2iU3NMzGVjsXGVCSQEi-hi6vTO4B7ZwigjmNDo2Lj5saLTX6Ljujg1JZkdiGxtnYc0OBs4pXZF=s0-d" alt="girl in block of water" width="300" length="300">
+
+    <p>My name is Emily, and I am an elementery school student at West Vancouver, BC. I'm currently 11 years old, but I'm turning 12 real soon! I have great interests in both tennis and programming, as well as robotics and reading. </p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+     <img src="https://i.imgur.com/5ctyU3l.gif" width="700" length="700">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+   <h2 class="centered-text" Id="Why I made this webpage"> Why I made this webpage🙃</h2>
+  <img src="https://i.pinimg.com/originals/29/53/f0/2953f0be5b2be7f8b8fa7f51ce7d114f.gif" alt="cinnamin bun wooden horse" width="300" length="300">
+
+   <p>So basiclly, after I discovered programming on Khan Acadamy, and I found great interests in it, espiecially HTML and CSS becuase you can make such cool websites with them, and I think coding is just so fun and so one day, my dad told me, "Hey, Emily, you are learning about HTML right? isn't that about website-making? you know you can make your own webpage, right? after you get something done, and can get one those links for you and you can have your own webpage! It doesn't have to be something complicated, it can be really simple, but you build on it over time." So I was like "YES! That is a amazing idea!" So that is why I made this webpage, even though it is quite simple, I am still having alot of fun making it, and I am goin to update this over time and add more and more features to make this better and better. </p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+ <img src="https://64.media.tumblr.com/46e9cf68d76719a3ffced986a86066ca/tumblr_nt09olJneN1qg80vbo1_500.gifv" width="700" length="700">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+ <h2 class="centered-text" Id="My projects"> My projects</h2>
+
+   <img src="https://data.whicdn.com/images/160382184/original.gif" width="300" length="300">
+
+   <p>I don't have any projects to share yet, but some are coming soon!</p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+   <img src="https://d.wattpad.com/story_parts/750202701/images/15abc1fc18a85a7e489155267831.gif" width="700" length="700">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <h2 class="centered-text" Id="Updates"> Updates</h2>
+  <p class="left-aligned-text">2021, July, 7th 
+
+    <br>
+
+    Website released!!! Navigation bar not working properly though... Noting that for the future. </p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<img src="https://64.media.tumblr.com/5f26c6339a913241dbe62d8ab61ad45d/tumblr_otxxl1It3k1vkwfwvo1_500.gifv" width="700" length="700">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    </body>
+</html>
